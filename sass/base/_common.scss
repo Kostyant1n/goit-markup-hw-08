@@ -1,0 +1,37 @@
+/* Body */
+
+body {
+  background-color: var(--hdprimary-wight-color);
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.03em;
+}
+
+/* Утилиты */
+
+.list {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+/* Link */
+
+.link {
+  outline: none;
+  transition: color, background-color, border, fill;
+  transition-duration: var(--tr-ms);
+  transition-timing-function: var(--tr-cb);
+}
+
+/* Advantages */
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+}

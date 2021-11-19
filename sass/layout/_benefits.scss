@@ -1,0 +1,146 @@
+/* Benefits Features */
+
+// .features__title {
+//   text-transform: uppercase;
+// }
+
+// .benefits {
+//   padding-top: 94px;
+//   padding-bottom: 47px;
+//   margin-bottom: 0px;
+//   margin-top: 0px;
+// }
+
+// .features__title {
+//   color: var(--title-text-color);
+// }
+
+// .features {
+//   display: flex;
+//   flex-wrap: wrap;
+// }
+
+// .features__item {
+//   &::before {
+//     display: block;
+//     content: '';
+//     height: 120px;
+//     background-size: contain;
+//     background: var(--bg-cl-icon);
+//     background-repeat: no-repeat;
+//     background-position: center;
+//     border-radius: 4px;
+//     margin-bottom: 30px;
+//   }
+// }
+
+// .features__item {
+//   width: calc((100% - 30px * 3) / 4);
+//   margin-right: 30px;
+//   &:nth-child(4n) {
+//     margin-right: 0;
+//   }
+// }
+
+// .features__icon-antenna {
+//   &::before {
+//     background-image: url(../images/advantages/antenna.svg);
+//   }
+// }
+
+// .features__icon-clock {
+//   &::before {
+//     background-image: url(../images/advantages/clock.svg);
+//   }
+// }
+
+// .features__icon-diagram {
+//   &::before {
+//     background-image: url(../images/advantages/diagram.svg);
+//   }
+// }
+
+// .features__icon-astronaut {
+//   &::before {
+//     background-image: url(../images/advantages/astronaut.svg);
+//   }
+// }
+
+// .features__text {
+//   font-weight: normal;
+//   font-size: 14px;
+//   line-height: 1.7;
+//   color: var(--primary-text-color);
+//   margin-top: 0px;
+//   margin-bottom: 0px;
+//   margin-right: 0px;
+// }
+
+@media screen and (min-width: 480px) {
+  .features__item {
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+}
+
+@media screen and (min-width: 1200px) {
+}
+
+.features__title {
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--title-text-color);
+}
+
+.features__item {
+  &::before {
+    display: block;
+    content: '';
+    height: 120px;
+    background-size: contain;
+    background: var(--bg-cl-icon);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 4px;
+    margin-bottom: 30px;
+  }
+  margin-bottom: 30px;
+}
+
+.features__text {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--primary-text-color);
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+}
+
+.features__icon-antenna {
+  &::before {
+    background-image: url(../images/advantages/antenna.svg);
+  }
+}
+
+.features__icon-clock {
+  &::before {
+    background-image: url(../images/advantages/clock.svg);
+  }
+}
+
+.features__icon-diagram {
+  &::before {
+    background-image: url(../images/advantages/diagram.svg);
+  }
+}
+
+.features__icon-astronaut {
+  &::before {
+    background-image: url(../images/advantages/astronaut.svg);
+  }
+}

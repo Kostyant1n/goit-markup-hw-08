@@ -1,0 +1,47 @@
+/* Root */
+
+:root {
+  /* header color  */
+  --hdtitle-text-color: #212121;
+  --hdprimary-text-color: #757575;
+  --hdaccent-pick-color: #2196f3;
+  --hdprimary-wight-color: #ffffff;
+
+  /* main color */
+  --title-text-color: #212121;
+  --h2-text-color: #212121;
+  --primary-text-color: #757575;
+  --accent-pick-color: #2196f3;
+  --primary-wight-color: #ffffff;
+  --btn-wight-color: #ffffff;
+  --background-black-color: #2f303a;
+  --bg-cl-icon: #f5f4fa;
+
+  /* portfolio */
+
+  --pbg-img-cl: rgba(33, 150, 243, 0.9);
+  --ptitle-text-color: #212121;
+  --pprimary-text-color: #757575;
+  --paccent-pick-color: #2196f3;
+  --pprimary-wight-color: #f5f4fa;
+  --pbabackground-black-color: #2f303a;
+
+  /* social icon */
+  --icon-cl: #afb1b8;
+  --icon-pick-cl: #ffffff;
+  --bgicon-cl: #ffffff;
+  --bgicon-pick-cl: #2196f3;
+  --bg-icon-cl: rgba(255, 255, 255, 0.1);
+
+  /* footer color */
+  --fttitle-text-color: #212121;
+  --ftprimary-text-color: #757575;
+  --ftaccent-pick-color: #2196f3;
+  --ftprimary-wight-color: #f5f4fa;
+  --ftbackground-black-color: #2f303a;
+
+  /* transition  */
+
+  --tr-ms: 250ms;
+  --tr-cb: cubic-bezier(0.4, 0, 0.2, 1);
+}

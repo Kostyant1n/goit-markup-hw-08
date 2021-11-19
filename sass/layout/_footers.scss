@@ -1,0 +1,130 @@
+/* Fotter */
+
+.footer {
+  width: 100%;
+  background-color: var(--ftbackground-black-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+address {
+  font-style: normal;
+  margin-top: 20px;
+}
+
+.ftr-contacts__link-adress {
+  color: var(--hdprimary-wight-color);
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+.ftr-contacts__link {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  color: rgba(255, 255, 255, 0.6);
+  &:hover,
+  &:focus {
+    color: var(--hdaccent-pick-color);
+  }
+}
+
+.ftr-contacts__item {
+  margin-top: 9px;
+}
+
+.footer {
+  .container {
+    display: flex;
+    align-items: baseline;
+  }
+}
+
+.ftsocial {
+  align-self: center;
+  margin-left: 70px;
+}
+
+.ftsocial__title {
+  font-weight: 700;
+  margin-bottom: 20px;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-top: 0px;
+  color: var(--ftprimary-wight-color);
+}
+
+.ft-email {
+  align-self: center;
+  margin-left: 93px;
+}
+
+.ft-email__title {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.ft-email__input {
+  width: 358px;
+  height: 50px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 16px;
+  padding-right: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  color: #ffffff;
+  background: rgba(0, 0, 0, 0.01);
+  transition: color, background-color, border, fill;
+  transition-duration: var(--tr-ms);
+  transition-timing-function: var(--tr-cb);
+  &::placeholder {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.25;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+  }
+}
+
+.button-ftmail {
+  position: relative;
+  display: inline-block;
+  color: var(--btn-wight-color);
+  background-color: var(--accent-pick-color);
+  text-decoration: none;
+  width: 200px;
+  height: 50px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  align-items: center;
+  letter-spacing: 0.06em;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 29px;
+  padding-right: 62px;
+  margin-left: 10px;
+}
+
+.svg-ft-icon {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 13px;
+  left: 148px;
+  fill: var(--btn-wight-color);
+}
