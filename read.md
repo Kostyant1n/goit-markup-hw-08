@@ -1,7 +1,7 @@
-@media screen and (min-width: 480px) { min-width: 480px; }
+@media screen and (min-width: 480px) { }
 
 @media screen and (min-width: 768px) {  
- min-width: 768px; }
+ }
 
 @media screen and (min-width: 1200px) {  
- min-width: 1200px; }
+ }
