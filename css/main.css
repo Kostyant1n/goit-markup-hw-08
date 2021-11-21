@@ -360,12 +360,13 @@ textarea {
   letter-spacing: 0.06em;
   padding: 10px 55px;
   margin-top: 30px;
+  margin-bottom: 40px;
 }
 
 @media screen and (min-width: 480px) {
   .modal {
     max-width: 450px;
-    height: 609px;
+    min-height: 609px;
   }
   .modal .form-title {
     width: 370px;
@@ -373,6 +374,7 @@ textarea {
   }
   .form-field input {
     width: 370px;
+    height: 40px;
   }
   .check-text {
     font-size: 12px;
@@ -386,13 +388,14 @@ textarea {
 @media screen and (min-width: 1200px) {
   .modal {
     max-width: 528px;
-    height: 581px;
+    min-height: 581px;
   }
   .modal .form-title {
     width: 428px;
   }
   .form-field input {
     width: 448px;
+    height: 40px;
   }
   .check-text {
     font-size: 14px;
