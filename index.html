@@ -29,12 +29,31 @@
 
   <body class="page">
     <!-- Шапка сайта -->
-    <!-- <header class="page-header border">
+    <header class="page-header border">
       <div class="container">
         <nav class="navigation">
           <a href="./index.html" class="logo" lang="en"
             >Web<span class="logo--black">Studio</span></a
           >
+          <button
+            class="menu-toggle js-open-menu"
+            aria-expanded="false"
+            aria-controls="mobile-menu"
+          >
+            <svg
+              width="24"
+              height="24"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                clip-rule="evenodd"
+              ></path>
+            </svg>
+          </button>
           <ul class="list site-nav">
             <li class="item site-nav__item">
               <a href="" class="link current site-nav__link">Студия</a>
@@ -48,6 +67,86 @@
               <a href="" class="link site-nav__link">Контакты</a>
             </li>
           </ul>
+          <div class="menu-container js-menu-container" id="mobile-menu">
+            <button class="menu-toggle js-close-menu">
+              <svg
+                fill="currentColor"
+                viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+                  clip-rule="evenodd"
+                ></path>
+              </svg>
+            </button>
+            <div class="menu-list">
+              <ul class="mobile-menu">
+                <li class="item mobile-menu__item">
+                  <a href="" class="link current link-menu">Студия</a>
+                </li>
+                <li class="item mobile-menu__item">
+                  <a href="./portfolio.html" class="link link-menu"
+                    >Портфолио</a
+                  >
+                </li>
+                <li class="item mobile-menu__item">
+                  <a href="" class="link link-menu">Контакты</a>
+                </li>
+              </ul>
+              <div>
+                <ul class="mobile-contacts">
+                  <li class="item mobile-contacts__item">
+                    <a href="tel:+380961111111" class="link link-tel"
+                      >+38 096 111 11 11</a
+                    >
+                  </li>
+                  <li class="item mobile-contacts__item">
+                    <a href="mailto:info@devstudio.com" class="link link-mail"
+                      >info@devstudio.com</a
+                    >
+                  </li>
+                </ul>
+                <ul class="mobile-social">
+                  <li class="item mobile-social__item">
+                    <a
+                      href="https://www.instagram.com/"
+                      class="link link-social"
+                    >
+                      Instagram</a
+                    >
+                  </li>
+                  <li>|</li>
+                  <li class="item smobile-social__item">
+                    <a href="https://twitter.com/" class="link link-social">
+                      Twitter</a
+                    >
+                  </li>
+                  <li>|</li>
+                  <li class="item mobile-social__item">
+                    <a
+                      href="https://m.facebook.com/login/?locale2=ru_RU"
+                      class="link link-social"
+                    >
+                      Facebook</a
+                    >
+                  </li>
+                  <li>|</li>
+                  <li class="item site-nav__item">
+                    <a
+                      href="https://www.linkedin.com/"
+                      class="link link-social"
+                    >
+                      LinkedIn</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </nav>
 
         <ul class="list contacts-header">
@@ -73,20 +172,20 @@
           </li>
         </ul>
       </div>
-    </header> -->
+    </header>
 
     <main>
       <!-- Герой -->
-      <section class="section hero">
+      <!-- <section class="section hero">
         <div class="container">
           <h1 class="hero__title">Эффективные решения для вашего бизнеса</h1>
           <button data-modal-open class="hero__button link" type="button">
             Заказать услугу
-          </button>
+          </button> -->
 
-          <!-- Модалка -->
+      <!-- Модалка -->
 
-          <div class="backdrop is-hidden" data-modal>
+      <!-- <div class="backdrop is-hidden" data-modal>
             <div class="modal">
               <button class="button-close" data-modal-close>
                 <svg class="svg-icon">
@@ -94,10 +193,10 @@
                     href="./images/hero/close-black.svg#icon-close-black"
                   ></use>
                 </svg>
-              </button>
+              </button> -->
 
-              <!-- Форма -->
-              <form action="#" class="speaker-form">
+      <!-- Форма -->
+      <!-- <form action="#" class="speaker-form">
                 <p class="form-title">
                   Оставьте свои данные, мы вам перезвоним
                 </p>
@@ -169,10 +268,10 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
 
       <!-- Преимущества -->
-      <section class="section benefits">
+      <!-- <section class="section benefits">
         <div class="container">
           <h2 class="visually-hidden">Преимущества</h2>
           <ul class="list features">
@@ -206,10 +305,10 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
 
       <!-- Чем мы занимаемся -->
-      <section class="section our-works">
+      <!-- <section class="section our-works">
         <div class="container">
           <h2 class="section-title our-works__title">Чем мы занимаемся</h2>
           <ul class="list work">
@@ -235,10 +334,10 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
 
       <!-- Наша команда -->
-      <section class="section team-block">
+      <!-- <section class="section team-block">
         <div class="container">
           <h2 class="section-title team-block__title">Наша команда</h2>
           <ul class="list our-team">
@@ -412,10 +511,10 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
 
       <!-- Постоянные клиенты -->
-      <section class="section clients">
+      <!-- <section class="section clients">
         <div class="container">
           <h2 class="section-title clents__title">Постоянные клиенты</h2>
           <ul class="list regular-clients">
@@ -457,11 +556,11 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
     </main>
 
     <!-- Футер -->
-    <footer class="section footer">
+    <!-- <footer class="section footer">
       <div class="container footer-block">
         <div class="ftlogo-contacts">
           <a href="./index.html" class="link logo" lang="en"
@@ -540,7 +639,41 @@
           </button>
         </div>
       </div>
-    </footer>
+    </footer> -->
+
+    <!-- mob-menu -->
+    <!-- <div class="menu-container js-menu-container" id="mobile-menu">
+      <button class="menu-toggle js-close-menu">
+        <svg
+          fill="currentColor"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+        >
+          <path
+            fill-rule="evenodd"
+            d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+            clip-rule="evenodd"
+          ></path>
+        </svg>
+      </button>
+
+      <ul class="mobile-menu">
+        <li><a href="" class="link">О нас</a></li>
+        <li><a href="" class="link">Работы</a></li>
+        <li><a href="" class="link">Контакты</a></li>
+        <li><a href="" class="link">Карьера</a></li>
+      </ul>
+    </div> -->
+
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="js/mobile-menu.js"></script>
     <script src="./js/modal.js"></script>
   </body>
 </html>

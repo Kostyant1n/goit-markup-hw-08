@@ -69,7 +69,7 @@
     min-width: 1200px;
     .hero__title {
       font-size: 44px;
-      width: 696px;
+      max-width: 696px;
       height: 120px;
     }
   }
@@ -93,8 +93,8 @@
 
 .hero__title {
   color: var(--primary-wight-color);
-  width: 360px;
-  height: 84px;
+  max-width: 360px;
+  min-height: 84px;
   font-weight: 900;
   font-size: 26px;
   line-height: 1.36;
