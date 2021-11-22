@@ -449,6 +449,9 @@ textarea {
 
 .menu-container {
   position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   top: 0;
   left: 0;
   width: 100vw;
@@ -474,14 +477,6 @@ textarea {
 
 .menu-container .menu-toggle:hover, .menu-container .menu-toggle:focus {
   color: var(--accent-pick-color);
-}
-
-.menu-list {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  width: 100vw;
-  height: 100vh;
 }
 
 .mobile-menu {
@@ -528,9 +523,6 @@ textarea {
 }
 
 .mobile-contacts {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
   list-style: none;
   padding-bottom: 64px;
   padding-left: 0;
@@ -560,6 +552,7 @@ textarea {
   padding-bottom: 40px;
   padding-left: 0;
   padding-right: 0;
+  margin-right: auto;
   list-style: none;
 }
 

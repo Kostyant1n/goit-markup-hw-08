@@ -40,6 +40,9 @@
 
 .menu-container {
   position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   top: 0;
   left: 0;
   width: 100vw;
@@ -68,13 +71,13 @@
   }
 }
 
-.menu-list {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  width: 100vw;
-  height: 100vh;
-}
+// .menu-list {
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: space-between;
+//   width: 100vw;
+//   height: 100vh;
+// }
 
 .mobile-menu {
   padding: 0;
@@ -119,9 +122,6 @@
 }
 
 .mobile-contacts {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
   list-style: none;
   padding-bottom: 64px;
   padding-left: 0;
@@ -150,5 +150,6 @@
   padding-bottom: 40px;
   padding-left: 0;
   padding-right: 0;
+  margin-right: auto;
   list-style: none;
 }
