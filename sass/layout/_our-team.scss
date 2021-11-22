@@ -51,6 +51,7 @@
 @media screen and (min-width: 480px) {
   .our-team {
     min-width: 480px;
+    justify-items: center;
     .our-team__item {
       &:nth-child(4n) {
         margin-bottom: 0;
@@ -66,6 +67,7 @@
     grid-template-columns: repeat(2, 1fr);
     gap: 30px;
     margin-bottom: 0;
+    justify-items: center;
     .our-team__item {
       margin-bottom: 0;
     }
@@ -78,6 +80,7 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 30px;
+    justify-items: center;
   }
 }
 
@@ -87,9 +90,9 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
+  text-align: center;
   margin-top: 0px;
   margin-bottom: 0px;
-  text-align: center;
   margin-right: 0px;
   margin-left: 0px;
 }
