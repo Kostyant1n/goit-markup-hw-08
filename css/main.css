@@ -556,6 +556,12 @@ textarea {
   list-style: none;
 }
 
+.mobile-social .link {
+  text-decoration: none;
+  list-style: none;
+  color: #2196f3;
+}
+
 /* Section */
 .container {
   width: 100%;
