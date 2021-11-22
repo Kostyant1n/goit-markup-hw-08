@@ -100,10 +100,29 @@
 }
 
 @media screen and (min-width: 768px) {
+  .contacts-header {
+    display: block;
+    padding-top: 21px;
+    padding-bottom: 21px;
+  }
+  .contacts-header__item {
+    &:last-child {
+      margin-top: 10px;
+    }
+    .contacts-header__contact {
+      padding: 0;
+    }
+  }
 }
 
 @media screen and (min-width: 1200px) {
   .contacts-header {
     display: flex;
+  }
+  .contacts-header__item {
+    align-self: center;
+    &:last-child {
+      margin-top: 0;
+    }
   }
 }

@@ -3,6 +3,7 @@
 .navigation {
   display: flex;
   align-items: center;
+  min-height: 60px;
 }
 
 .site-nav {
@@ -63,11 +64,17 @@
 }
 
 @media screen and (min-width: 768px) {
+  .site-nav {
+    display: flex;
+    // display: none;
+    margin-left: 10%;
+  }
+
   .site-nav__link {
     &.current {
       color: var(--hdaccent-pick-color);
       &::after {
-        opacity: 0;
+        opacity: 1;
       }
     }
   }
