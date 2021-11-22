@@ -480,7 +480,8 @@ textarea {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background-color: aqua;
+  width: 100vw;
+  height: 100vh;
 }
 
 .mobile-menu {
@@ -527,8 +528,12 @@ textarea {
 }
 
 .mobile-contacts {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
   list-style: none;
   padding-bottom: 64px;
+  padding-left: 0;
 }
 
 .mobile-contacts .link-tel {
@@ -543,7 +548,7 @@ textarea {
 .mobile-contacts .link-mail {
   font-weight: 500;
   font-size: 24px;
-  line-height: 28px;
+  line-height: 1.13;
   letter-spacing: 0.02em;
   color: #757575;
 }
