@@ -50,14 +50,12 @@
               ></path>
             </svg>
           </button>
-          <ul class="menu">
+          <ul class="list site-nav">
             <li class="item site-nav__item">
               <a href="./index.html" class="link site-nav__link">Студия</a>
             </li>
-            <li class="item site-nav__item">
-              <a href="" class="link current site-nav__link"
-                >Портфолио</a
-              >
+            <li class="item current site-nav__item">
+              <a href="" class="link site-nav__link">Портфолио</a>
             </li>
             <li class="item site-nav__item">
               <a href="" class="link site-nav__link">Контакты</a>
@@ -79,19 +77,61 @@
                 ></path>
               </svg>
             </button>
+
             <ul class="mobile-menu">
-              <li class="item site-nav__item">
-              <a href="./index.html" class="link site-nav__link">Студия</a>
-            </li>
-            <li class="item site-nav__item">
-              <a href="" class="link current site-nav__link"
-                >Портфолио</a
-              >
-            </li>
-            <li class="item site-nav__item">
-              <a href="" class="link site-nav__link">Контакты</a>
-            </li>
-          </ul>
+              <li class="item mobile-menu__item">
+                <a href="./index.html" class="link link-menu">Студия</a>
+              </li>
+              <li class="item mobile-menu__item">
+                <a href="" class="link current link-menu">Портфолио</a>
+              </li>
+              <li class="item mobile-menu__item">
+                <a href="" class="link link-menu">Контакты</a>
+              </li>
+            </ul>
+            <div class="end-modal">
+              <ul class="mobile-contacts">
+                <li class="item mobile-contacts__item">
+                  <a href="tel:+380961111111" class="link link-tel"
+                    >+38 096 111 11 11</a
+                  >
+                </li>
+                <li class="item mobile-contacts__item">
+                  <a href="mailto:info@devstudio.com" class="link link-mail"
+                    >info@devstudio.com</a
+                  >
+                </li>
+              </ul>
+              <ul class="mobile-social">
+                <li class="item mobile-social__item">
+                  <a href="https://www.instagram.com/" class="link link-social">
+                    Instagram</a
+                  >
+                </li>
+                <li>|</li>
+                <li class="item smobile-social__item">
+                  <a href="https://twitter.com/" class="link link-social">
+                    Twitter</a
+                  >
+                </li>
+                <li>|</li>
+                <li class="item mobile-social__item">
+                  <a
+                    href="https://m.facebook.com/login/?locale2=ru_RU"
+                    class="link link-social"
+                  >
+                    Facebook</a
+                  >
+                </li>
+                <li>|</li>
+                <li class="item site-nav__item">
+                  <a href="https://www.linkedin.com/" class="link link-social">
+                    LinkedIn</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
         </nav>
 
         <ul class="list contacts-header">
@@ -118,10 +158,9 @@
         </ul>
       </div>
     </header>
-
     <main>
       <!-- Филтр -->
-<!-- 
+
       <section class="section">
         <div class="container">
           <h1 class="visually-hidden">Наши работы</h1>
@@ -141,11 +180,11 @@
             <li class="item">
               <button class="button-filter" type="button">Маркетинг</button>
             </li>
-          </ul> -->
+          </ul>
 
           <!-- Галерея -->
 
-          <!-- <ul class="gallery list">
+          <ul class="gallery list">
             <li class="item gl-item">
               <a class="link" href="">
                 <div class="pic">
@@ -309,10 +348,10 @@
           </ul>
         </div>
       </section>
-    </main> -->
+    </main>
 
     <!-- Футер -->
-    <!-- <footer class="section footer">
+    <footer class="section footer">
       <div class="container footer-block">
         <div class="ftlogo-contacts">
           <a href="./index.html" class="link logo" lang="en"
@@ -391,7 +430,7 @@
           </button>
         </div>
       </div>
-    </footer> -->
+    </footer>
     <script
       defer
       src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
