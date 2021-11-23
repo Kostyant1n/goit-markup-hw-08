@@ -3,6 +3,7 @@
 .page-header {
   .container {
     display: flex;
+    align-items: center;
     margin-left: auto;
     margin-right: auto;
   }
@@ -18,4 +19,8 @@
 
 .border {
   border-bottom: 1px solid rgba(236, 236, 236, 1);
+}
+
+.menu-toggle {
+  margin-left: auto;
 }

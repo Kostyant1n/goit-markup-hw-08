@@ -580,19 +580,19 @@ textarea {
 
 @media screen and (min-width: 480px) {
   .container {
-    min-width: 480px;
+    width: 480px;
   }
 }
 
 @media screen and (min-width: 768px) {
   .container {
-    min-width: 768px;
+    width: 768px;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .container {
-    min-width: 1200px;
+    width: 1200px;
   }
   .section {
     padding-top: 94px;
@@ -603,6 +603,7 @@ textarea {
 /* Header */
 .page-header .container {
   display: flex;
+  align-items: center;
   margin-left: auto;
   margin-right: auto;
 }
@@ -619,32 +620,11 @@ textarea {
   border-bottom: 1px solid #ececec;
 }
 
+.menu-toggle {
+  margin-left: auto;
+}
+
 /* Benefits Features */
-@media screen and (min-width: 480px) {
-  .features__item:last-child {
-    margin-bottom: 0;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .features {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 30px;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .benefits {
-    padding-bottom: 47px;
-  }
-  .features {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 30px;
-  }
-}
-
 .features__title {
   text-align: center;
   text-transform: uppercase;
@@ -693,6 +673,37 @@ textarea {
   background-image: url(../images/advantages/astronaut.svg);
 }
 
+@media screen and (min-width: 480px) {
+  .features__item:last-child {
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .features {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+  .features__title {
+    text-align: left;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .benefits {
+    padding-bottom: 47px;
+  }
+  .features {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+  }
+  .features__title {
+    text-align: left;
+  }
+}
+
 /* Clients */
 .regular-clients {
   display: grid;
@@ -730,7 +741,7 @@ textarea {
 
 @media screen and (min-width: 380px) {
   .regular-clients {
-    min-width: 320px;
+    width: 320px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 30px;
@@ -745,7 +756,7 @@ textarea {
 
 @media screen and (min-width: 768px) {
   .regular-clients {
-    min-width: 768px;
+    width: 768px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
@@ -754,7 +765,7 @@ textarea {
 
 @media screen and (min-width: 1200px) {
   .regular-clients {
-    min-width: 1200px;
+    width: 1200px;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     gap: 30px;
@@ -979,6 +990,9 @@ address {
 }
 
 @media screen and (min-width: 1200px) {
+  .footer {
+    padding: 60px 0;
+  }
   .ftlogo-contacts {
     padding-bottom: 0;
     text-align: left;
@@ -1008,6 +1022,7 @@ address {
 /* Header */
 .page-header .container {
   display: flex;
+  align-items: center;
   margin-left: auto;
   margin-right: auto;
 }
@@ -1022,6 +1037,10 @@ address {
 
 .border {
   border-bottom: 1px solid #ececec;
+}
+
+.menu-toggle {
+  margin-left: auto;
 }
 
 /* Hero */

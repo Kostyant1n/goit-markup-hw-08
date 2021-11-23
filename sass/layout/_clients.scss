@@ -77,7 +77,7 @@
 
 @media screen and (min-width: 380px) {
   .regular-clients {
-    min-width: 320px;
+    width: 320px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 30px;
@@ -92,7 +92,7 @@
 
 @media screen and (min-width: 768px) {
   .regular-clients {
-    min-width: 768px;
+    width: 768px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
@@ -101,7 +101,7 @@
 
 @media screen and (min-width: 1200px) {
   .regular-clients {
-    min-width: 1200px;
+    width: 1200px;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     gap: 30px;
